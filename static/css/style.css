@@ -8,3 +8,42 @@ body,
 html {
   height: 100%;
 }
+
+.legend div i{
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 5px; 
+  height: 5px;
+  display: inline-block;
+  margin-right: 5px; 
+  border: 1px solid black;
+} 
+
+.legend .very-deep i{
+  background-color: #800000;
+}
+
+.legend .deep i{
+  background-color: #ff0000;
+}
+
+.legend .moderate-depth i{
+  background-color: #ff6600;
+}
+
+.legend .moderate-shallow i{
+  background-color: #ffcc00;
+}
+
+.legend .shallow i{
+  background-color: #ffff00;
+}
+
+.legend .very-shallow i{
+  background-color: #99ff33;
+}
